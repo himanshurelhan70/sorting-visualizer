@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+html{
+    font-size: 10px;
+}
+
+button{
+    width: 12rem;
+    font-size: 1.6rem;
+    padding: 0.7rem 1.2rem;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    outline: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(28, 140, 136);
+}
+
+header{
+    width: 100%;
+    background-color: rgba(9, 88, 118, 0.828);
+    font-size: 1.8rem;
+}
+
+header h1{
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+}
+
+header .array_inputs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+header .array_inputs #a_generate{
+   width: auto;
+}
+
+header .array_inputs div{
+    display: flex;
+}
+
+header .array_inputs div p{
+    padding-right: 2rem;
+}
+
+header .array_inputs div #a_size, #a_speed{
+    width: 18rem;
+}
+
+/* algos navbar */
+header .algos{
+    width: 70%;
+    margin : 0 auto;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+header nav .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+header nav .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+header nav .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+
+/* vertical bars representing array */
+section #array_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+  }
